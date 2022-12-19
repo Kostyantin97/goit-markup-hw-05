@@ -105,8 +105,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 25px;
     margin-right: 93px;
 }
 
@@ -121,7 +119,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     display: flex;
@@ -154,9 +152,11 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;    
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 }
 
 .site-nav-item {
@@ -169,7 +169,7 @@ ul {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     background-color: var(--accent-color);
     border-radius: 2px;
 }
@@ -188,9 +188,11 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 }   
     
 
@@ -206,9 +208,11 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 }
 
 .link-contacts:hover,
@@ -223,8 +227,6 @@ ul {
 /* section-contacts-nav */
 
 .section-contacts-nav {
-    margin-top: 32px;
-    margin-bottom: 32px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -234,7 +236,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -245,7 +247,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     margin-right: 40px;
@@ -280,7 +282,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     margin-right: 40px;
@@ -334,7 +336,7 @@ ul {
     font-weight: 900;
     width: 696px;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 0.06em;
 
     text-transform: uppercase;
@@ -430,7 +432,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     padding-right: 30px;
 
@@ -447,7 +449,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
@@ -505,7 +507,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;  
 }
@@ -532,7 +534,7 @@ ul {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 }
@@ -543,7 +545,7 @@ ul {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
 }
@@ -646,7 +648,7 @@ ul {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     display: block;
@@ -673,7 +675,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--accent-color-logo);
@@ -690,7 +692,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
@@ -707,7 +709,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);   
@@ -778,7 +780,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     display: flex;
@@ -792,7 +794,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -801,10 +803,11 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14px;
     letter-spacing: 0.02em;
     color:var(--title-text-color);
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 }
 
 .link-stud:hover,
@@ -822,6 +825,8 @@ ul {
     letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 
 }
 
@@ -835,7 +840,7 @@ ul {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     background-color: var(--accent-color);
     border-radius: 2px;
 }
@@ -851,10 +856,12 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
+    display: block;
+    padding: 32px 0;
 }
 
 .link-contacts:hover,
@@ -867,8 +874,6 @@ ul {
 /* section-contacts-nav */
 
 .section-contacts-nav {
-    margin-top: 32px;
-    margin-bottom: 32px;
     display: flex;
     align-items: center;
 }
@@ -886,7 +891,7 @@ ul {
     background-color:var(--section-team-background-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     border-radius: 4px;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -911,7 +916,7 @@ ul {
     background-color:var(--section-team-background-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     border-radius: 4px;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -1024,7 +1029,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     margin-bottom: 0;
 }

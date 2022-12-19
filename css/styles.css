@@ -10,6 +10,7 @@
     --footer-background-color:#2F303A;
     --color-social-icon:#AFB1B8;
     --social-icon-join:#FFFFFF1A;
+    --modal-background:#0000001A;
 }
 
 html {
@@ -157,6 +158,7 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-item {
@@ -178,8 +180,7 @@ ul {
 .link-studio:hover,
 .link-studio:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -193,14 +194,14 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
     
 
 .link-portfolio:hover,
 .link-portfolio:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contacts {
@@ -213,13 +214,13 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -253,6 +254,7 @@ ul {
     margin-right: 40px;
     margin-top: 32px;
     margin-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link-email {
@@ -260,19 +262,19 @@ ul {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .link-email:hover {
-    color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-email:hover,
-.icon-link-email:focus {
+.link-email:hover .icon-link-email,
+.link-email:focus .icon-link-email {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -288,7 +290,13 @@ ul {
     margin-right: 40px;
     margin-top: 32px;
     margin-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
+}
+
+.link-tel:hover {
+    color: var(--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link-tel {
@@ -296,20 +304,14 @@ ul {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-tel:hover,
-.icon-link-tel:focus {
+
+.link-tel:hover .icon-link-tel,
+.link-tel:focus .icon-link-tel {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-tel:hover,
-.link-tel:focus {
-    color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -356,6 +358,8 @@ ul {
     align-items: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
     border-radius: 4px;
@@ -370,8 +374,7 @@ ul {
 .button-active:focus {
     color:var(--accent-color-logo);
     background-color:var(--button-active-secondary-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section-advantages */
@@ -566,12 +569,12 @@ ul {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links:hover,
 .social-links:focus {
     background-color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links:hover .social-icon,
@@ -583,6 +586,7 @@ ul {
 
 .social-icon {
     fill: var(--color-social-icon);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* title-clients */
@@ -610,25 +614,25 @@ ul {
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 
 }
 
 .client-border:hover,
 .client-border:focus {
     border: 1px solid var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
 .client-logo {
     fill: var(--color-social-icon);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-border:hover .client-logo,
 .client-border:focus .client-logo {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
 
@@ -679,13 +683,13 @@ ul {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--accent-color-logo);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-adress-footer:hover,
 .link-adress-footer:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-email-footer {
@@ -696,13 +700,13 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-email-footer:hover,
 .link-email-footer:focus {
     color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-tel-footer {
@@ -712,14 +716,14 @@ ul {
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);   
+    color: rgba(255, 255, 255, 0.6); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .link-tel-footer:hover,
 .link-tel-footer:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-footer {
@@ -756,10 +760,12 @@ ul {
 .social-item {
     border-radius: 50%;
     background-color: var(--social-icon-join);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-join {
     fill:var(--accent-color-logo);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -808,14 +814,16 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .link-stud:hover,
 .link-stud:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .link-portf {
     font-style: normal;
@@ -827,7 +835,7 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-item {
@@ -848,8 +856,7 @@ ul {
 .link-portf:hover,
 .link-portf:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contacts {
@@ -862,13 +869,13 @@ ul {
     text-decoration: none;
     display: block;
     padding: 32px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
     color:var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section-contacts-nav */
@@ -899,6 +906,7 @@ ul {
     border: none;
     padding: 6px 22px;
     margin-right: 8px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .button-primary:hover,
@@ -906,8 +914,7 @@ ul {
     color:var(--accent-color-logo);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-secondary {
@@ -924,6 +931,7 @@ ul {
     border: none;
     padding: 6px 22px;
     margin-right: 8px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-secondary:hover,
@@ -931,8 +939,7 @@ ul {
     color: var(--accent-color-logo);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* section-portfolio-nav */
@@ -976,8 +983,7 @@ ul {
 }
 
 .portfolio-link {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
 }
 
@@ -985,8 +991,6 @@ ul {
 .portfolio-link:focus .portfolio-thumb {
     transform: translateY(0);
     opacity: 1;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumb {
@@ -1000,6 +1004,7 @@ ul {
   width: 100%;
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-text {
@@ -1008,7 +1013,7 @@ ul {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--accent-color-logo);
     padding: 63px 24px;
 
 }
@@ -1034,6 +1039,7 @@ ul {
     margin-bottom: 0;
 }
 
+/* Модальне вікно */
 
 
 .backdrop {
@@ -1042,8 +1048,9 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#0000001A;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
+    background-color:var(--modal-background);
+    transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -1054,19 +1061,19 @@ ul {
 .modal {
     height: 581px;
     width: 528px;
-    background: #FFFFFF;
+    background:var(--accent-color-logo);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-modal-close {
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color:var(--accent-color-logo);
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
